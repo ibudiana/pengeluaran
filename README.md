@@ -1,10 +1,19 @@
 Aplikasi catat pengeluaran dengan command line. with an entrypoint in `bin/`, library code
 in `lib/`, and example unit test in `test/`.
 
-Jalankan aplikasi dengan : dark run
+Jalankan aplikasi dengan : 
+```
+dart run
+```
+Jalankan unit testing dengan : 
+```
+dart test
+```
 
-Jalankan unit testing dengan : dark test
+Contoh App Ketika Running
+=============
 
+```
 -- Menjalankan APlikasi --
 =====CATAT PENGELUARAN=======
 1. Tambah Pengeluaran
@@ -115,3 +124,4 @@ Pilih opsi: 0
 ========================================
 Terima kasih telah menggunakan aplikasi!
 ========================================
+```
