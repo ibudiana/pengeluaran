@@ -72,6 +72,11 @@ class App {
       pilihanKategori = pengeluaran.tampilkanKategori().length;
     }
 
+    if (pilihanKategori > pengeluaran.tampilkanKategori().length) {
+      print("Kategori tidak ditemukan");
+      return;
+    }
+
     double nominal = inputUser<double>("Nominal: ");
     String catatan =
         inputUser<String>("Masukan Catatan Jika Tidak Ada tulis - : ");
